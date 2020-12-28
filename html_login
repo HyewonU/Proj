@@ -1,0 +1,71 @@
+# Proj
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>로그인페이지</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+    <style>
+        *{font-family: 'Poor Story', cursive;} /*별과 괄호 *{}은 모든 태그에 폰트스타일을 적용하겠다*/
+        .mytitle{
+            /*background-color: green; 어디까지 묶인 범위인지 확인*/
+            width: 300px;
+            height: 200px;
+
+            color: white;
+            text-align: center;
+            /*
+            background-image: url('https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg');
+             */          
+            background-image: url('C:/Users/송혜원/Desktop/zootopia.jpg');
+            background-size: cover;
+            background-position: center;
+
+            border-radius:10px; /*모서리 둥글게*/
+
+            /*마진은 내 바깥의 여백, 패딩은 내 안의 여백 
+            #순서는 위쪽부터 시계방향 즉, 상-오-하-왼*/
+            padding-top: 20px;
+        
+        
+        }
+
+        .wrap{
+            /*background-color: green;*/
+            width: 300px; 
+            margin: auto; /*여백을 동등하게*/
+
+        }
+
+        .mybtn{
+            width:300px;
+            height: 50px;
+            color:white;
+            background-color: brown;
+       }
+    </style>
+
+</head>
+<body>
+    <div class="wrap"> 
+        <div class="mytitle">
+            <h1>Login Page</h1>
+            <h5>아이디, 비밀번호를 입력해주세요</h5>
+    
+        </div>
+    
+    
+        <p>ID: <input type="text"/></p>
+        <p>PW: <input type="text"/></p>
+        <button class="mybtn">로그인하기</button>
+            
+
+
+    </div>
+   
+
+</body>
+</html>
+```
